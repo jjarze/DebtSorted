@@ -1,4 +1,4 @@
-#DebtSorted is a debt counselling business
+##DebtSorted is a debt counselling business
 
 This repo forms our website, so it is not for reuse
 
