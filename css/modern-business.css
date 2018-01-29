@@ -15,8 +15,8 @@ body {
 }
 
 .carousel-item {
-  height: 65vh;
-  min-height: 300px;
+  height: 50vh;
+  min-height: 250px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -26,4 +26,12 @@ body {
 
 .portfolio-item {
   margin-bottom: 30px;
+}
+
+.header-debt {
+  color: chartreuse
+}
+
+.padded {
+  padding-bottom: 54px;
 }
