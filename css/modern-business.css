@@ -29,7 +29,12 @@ body {
 }
 
 .header-debt {
-  color: chartreuse
+  color: #a7ba06;
+}
+
+.btn {
+  background-color: #a7ba06;
+  border-color: transparent;
 }
 
 .padded {
