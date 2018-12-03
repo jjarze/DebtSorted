@@ -18,19 +18,19 @@ gulp.task('copy', function() {
 })
 
 // Default task
-gulp.task('default', ['copy']);
+gulp.task('default', gulp.series('copy'));
 
 // Configure the browserSync task
 gulp.task('browserSync', function() {
   browserSync.init({
     server: {
-      baseDir: ''
+      baseDir: './'
     },
   })
 })
 
 // Dev task with browserSync
-gulp.task('dev', ['browserSync'], function() {
+gulp.task('dev', gulp.series('browserSync'), function() {
   // Reloads the browser whenever HTML or CSS files change
   gulp.watch('css/*.css', browserSync.reload);
   gulp.watch('*.html', browserSync.reload);
